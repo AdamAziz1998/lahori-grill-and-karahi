@@ -1,42 +1,49 @@
-<div class="font-sans antialiased bg-[#1A1A1A] text-white py-16 border-t-8 border-[#FFB800]">
-   <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
-      <div class="col-span-1 md:col-span-2">
-         <div class="text-4xl font-serif italic text-[#FFB800] mb-6 tracking-wide">Lahori Grill & Karahi</div>
+<div class="font-sans antialiased bg-[var(--color-neutral-900)] text-white py-16 border-t-8 border-[var(--color-yellow-500)]">
+   <div class="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <div class="col-span-1 lg:col-span-4">
+         <div class="text-4xl font-serif italic text-[var(--color-yellow-500)] mb-6 tracking-wide">Lahori Grill & Karahi</div>
          <p class="text-gray-400 text-sm max-w-sm mb-8 leading-relaxed font-light">
-           Bringing the vibrant textures of the Lahori street food scene to London. Fire, spices, and a grandfather's recipe for true hospitality.
+           Bringing the vibrant textures of the Lahori street food scene to Southsea. Fire, spices, and a grandfather's recipe for true hospitality.
          </p>
          <div class="flex gap-4">
-            <div class="w-10 h-10 rounded-full bg-[#2D2926] border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#C82A2E] cursor-pointer hover:scale-110 transition-all shadow-sm text-xl font-serif">f</div>
-            <div class="w-10 h-10 rounded-full bg-[#2D2926] border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#C82A2E] cursor-pointer hover:scale-110 transition-all shadow-sm text-xl font-serif">in</div>
-            <div class="w-10 h-10 rounded-full bg-[#2D2926] border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#C82A2E] cursor-pointer hover:scale-110 transition-all shadow-sm text-xl font-serif">x</div>
+            <div id="footer-social-facebook" class="w-10 h-10 rounded-full bg-[var(--color-neutral-700)] border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[var(--color-red-700)] cursor-pointer hover:scale-110 transition-all shadow-sm text-xl font-serif">f</div>
+            <div id="footer-social-linkedin" class="w-10 h-10 rounded-full bg-[var(--color-neutral-700)] border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[var(--color-red-700)] cursor-pointer hover:scale-110 transition-all shadow-sm text-xl font-serif">in</div>
          </div>
       </div>
-      
-      <div>
-         <div class="text-[#FFB800] font-semibold uppercase text-xs tracking-widest mb-8">Quick Links</div>
+
+      <div class="col-span-1 lg:col-span-2">
+         <div class="text-[var(--color-yellow-500)] font-semibold uppercase text-xs tracking-widest mb-8">Quick Links</div>
          <ul class="space-y-4 text-sm text-gray-400 font-light">
-            <li><a routerLink="/home" class="hover:text-[#FFB800] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Home</a></li>
-            <li><a routerLink="/about" class="hover:text-[#FFB800] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Our Story</a></li>
-            <li><a routerLink="/reservation" class="hover:text-[#FFB800] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Reservations</a></li>
-            <li><a href="#" class="hover:text-[#FFB800] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Careers</a></li>
+            <li><a id="footer-link-home" routerLink="/home" class="hover:text-[var(--color-yellow-500)] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Home</a></li>
+            <li><a id="footer-link-about" routerLink="/about" class="hover:text-[var(--color-yellow-500)] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Our Story</a></li>
+            <li><a id="footer-link-reservation" routerLink="/reservation" class="hover:text-[var(--color-yellow-500)] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Reservations</a></li>
+            <li><a id="footer-link-careers" href="#" class="hover:text-[var(--color-yellow-500)] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Careers</a></li>
          </ul>
       </div>
 
-      <div>
-         <div class="text-[#FFB800] font-semibold uppercase text-xs tracking-widest mb-8">Policy & Support</div>
+      <div class="col-span-1 lg:col-span-2">
+         <div class="text-[var(--color-yellow-500)] font-semibold uppercase text-xs tracking-widest mb-8">Policy & Support</div>
          <ul class="space-y-4 text-sm text-gray-400 font-light">
-            <li><a href="#" class="hover:text-[#FFB800] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Privacy Policy</a></li>
-            <li><a href="#" class="hover:text-[#FFB800] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Terms of Service</a></li>
-            <li><a routerLink="/contact" class="hover:text-[#FFB800] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Contact Us</a></li>
+            <li><a id="footer-link-privacy" href="#" class="hover:text-[var(--color-yellow-500)] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Privacy Policy</a></li>
+            <li><a id="footer-link-terms" href="#" class="hover:text-[var(--color-yellow-500)] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Terms of Service</a></li>
+            <li><a id="footer-link-contact" routerLink="/contact" class="hover:text-[var(--color-yellow-500)] transition-colors cursor-pointer inline-flex hover:translate-x-1 hover:scale-105 duration-300">Contact Us</a></li>
          </ul>
       </div>
+
+      <div class="col-span-1 lg:col-span-4 flex flex-col items-start lg:items-end w-full">
+         <div class="text-[var(--color-yellow-500)] font-semibold uppercase text-xs tracking-widest mb-8 w-full md:text-left">Find Us</div>
+         <div class="w-full h-48 rounded-xl overflow-hidden border border-gray-700 shadow-xl group hover:border-[var(--color-yellow-500)] transition-colors bg-[var(--color-neutral-800)] relative">
+            <div class="absolute inset-0 bg-transparent group-hover:bg-black/10 pointer-events-none transition-colors duration-300 z-10 block"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.2145894846362!2d-1.089688823238053!3d50.79013157165914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48745d6866863745%3A0xbe0929ca1c3a83eb!2sLahori%20Grill%20%26%20Karahi!5e0!3m2!1sen!2suk!4v1774730046957!5m2!1sen!2suk" class="w-full h-full object-cover" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </div>
    </div>
-   
+
    <div class="container mx-auto px-6 mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 font-light tracking-wide">
       <div>© 2026 LAHORI GRILL & KARAHI. CRAFTED WITH SPICE.</div>
-      <div class="mt-6 md:mt-0 flex items-center gap-2 bg-[#2D2926] px-4 py-2 rounded-full border border-gray-700">
-         <div class="w-2 h-2 rounded-full bg-[#FFB800] animate-pulse"></div>
-         LONDON, UNITED KINGDOM
+      <div class="mt-6 md:mt-0 flex items-center gap-2 bg-[var(--color-neutral-700)] px-4 py-2 rounded-full border border-gray-700 cursor-pointer hover:text-white hover:border-[var(--color-yellow-500)] transition-all">
+         <div class="w-2 h-2 rounded-full bg-[var(--color-yellow-500)] animate-pulse"></div>
+         85 Elm Grove, Southsea, PO5 1JF
       </div>
    </div>
 </div>

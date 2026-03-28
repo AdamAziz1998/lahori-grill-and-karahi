@@ -7,9 +7,9 @@ import { Reservation } from './reservation/reservation';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: Home },
-  { path: 'about', component: About },
-  { path: 'menu', component: Menu },
-  { path: 'contact', component: Contact },
-  { path: 'reservation', component: Reservation }
+  { path: 'home', component: Home, title: 'Home - Lahori Grill & Karahi' },
+  { path: 'about', component: About, title: 'Our Story - Lahori Grill & Karahi' },
+  { path: 'menu', component: Menu, title: 'Menu - Lahori Grill & Karahi' },
+  { path: 'contact', component: Contact, title: 'Contact - Lahori Grill & Karahi' },
+  { path: 'reservation', component: Reservation, title: 'Reservations - Lahori Grill & Karahi' }
 ];

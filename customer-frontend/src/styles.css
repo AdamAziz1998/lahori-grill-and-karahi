@@ -5,3 +5,15 @@
   --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-sans: "Lato", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+:root {
+  --color-teal-700: #00AFA3;
+  --color-neutral-900: #0D0D0D;
+  --color-neutral-800: #141414;
+  --color-neutral-700: #291D17;
+  --color-red-900: #A30006;
+  --color-red-800: #C60009;
+  --color-red-700: #EC000D;
+  --color-red-600: #FF1423;
+  --color-yellow-500: #FFC400;
+}

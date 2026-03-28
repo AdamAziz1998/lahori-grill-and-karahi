@@ -1,15 +1,15 @@
-<div class="bg-[#8B1A1C] font-sans antialiased text-white shadow-md sticky top-0 z-50">
+<div class="bg-[var(--color-red-900)] font-sans antialiased text-white shadow-md sticky top-0 z-50">
   <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-    <a routerLink="/home" class="cursor-pointer hover:scale-105 transition-transform block">
+    <a id="nav-brand-logo" routerLink="/home" class="cursor-pointer hover:scale-105 transition-transform block">
       <img src="/assets/images/logo.png" alt="Lahori Grill & Karahi Logo" class="h-16 w-auto" />
     </a>
     <div class="hidden md:flex space-x-8 text-sm font-semibold uppercase tracking-widest items-center">
-      <a routerLink="/home" routerLinkActive="text-[#FFB800] border-[#FFB800]" class="hover:text-[#FFB800] transition-all cursor-pointer py-1 border-b-2 border-transparent hover:border-[#FFB800]/50 hover:-translate-y-0.5">Home</a>
-      <a routerLink="/menu" routerLinkActive="text-[#FFB800] border-[#FFB800]" class="hover:text-[#FFB800] transition-all cursor-pointer py-1 border-b-2 border-transparent hover:border-[#FFB800]/50 hover:-translate-y-0.5">Menu</a>
-      <a routerLink="/about" routerLinkActive="text-[#FFB800] border-[#FFB800]" class="hover:text-[#FFB800] transition-all cursor-pointer py-1 border-b-2 border-transparent hover:border-[#FFB800]/50 hover:-translate-y-0.5">About Us</a>
-      <a routerLink="/contact" routerLinkActive="text-[#FFB800] border-[#FFB800]" class="hover:text-[#FFB800] transition-all cursor-pointer py-1 border-b-2 border-transparent hover:border-[#FFB800]/50 hover:-translate-y-0.5">Contact Us</a>
+      <a id="nav-link-home" routerLink="/home" routerLinkActive="text-[var(--color-yellow-500)] border-[var(--color-yellow-500)]" class="hover:text-[var(--color-yellow-500)] transition-all cursor-pointer py-1 border-b-2 border-transparent hover:border-[var(--color-yellow-500)]/50 hover:-translate-y-0.5">Home</a>
+      <a id="nav-link-menu" routerLink="/menu" routerLinkActive="text-[var(--color-yellow-500)] border-[var(--color-yellow-500)]" class="hover:text-[var(--color-yellow-500)] transition-all cursor-pointer py-1 border-b-2 border-transparent hover:border-[var(--color-yellow-500)]/50 hover:-translate-y-0.5">Menu</a>
+      <a id="nav-link-about" routerLink="/about" routerLinkActive="text-[var(--color-yellow-500)] border-[var(--color-yellow-500)]" class="hover:text-[var(--color-yellow-500)] transition-all cursor-pointer py-1 border-b-2 border-transparent hover:border-[var(--color-yellow-500)]/50 hover:-translate-y-0.5">About Us</a>
+      <a id="nav-link-contact" routerLink="/contact" routerLinkActive="text-[var(--color-yellow-500)] border-[var(--color-yellow-500)]" class="hover:text-[var(--color-yellow-500)] transition-all cursor-pointer py-1 border-b-2 border-transparent hover:border-[var(--color-yellow-500)]/50 hover:-translate-y-0.5">Contact Us</a>
     </div>
-    <button routerLink="/reservation" class="bg-[#FFB800] text-[#222222] px-8 py-2.5 rounded-sm font-bold text-xs uppercase tracking-widest hover:bg-yellow-400 hover:scale-105 transition-all shadow-sm">
+    <button id="btn-nav-reservation" routerLink="/reservation" class="bg-[var(--color-yellow-500)] text-[var(--color-neutral-800)] px-8 py-2.5 rounded-sm font-bold text-xs uppercase tracking-widest hover:bg-yellow-400 hover:scale-105 transition-all shadow-sm">
       Book a Table
     </button>
   </nav>
